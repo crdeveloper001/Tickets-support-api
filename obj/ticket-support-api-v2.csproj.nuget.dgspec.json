@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/ticket-support-api-v2.csproj": {}
+    "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/ticket-support-api-v2.csproj": {}
   },
   "projects": {
-    "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/ticket-support-api-v2.csproj": {
+    "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/ticket-support-api-v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/ticket-support-api-v2.csproj",
+        "projectUniqueName": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/ticket-support-api-v2.csproj",
         "projectName": "ticket-support-api-v2",
-        "projectPath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/ticket-support-api-v2.csproj",
+        "projectPath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/ticket-support-api-v2.csproj",
         "packagesPath": "/home/claudio/.nuget/packages/",
-        "outputPath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/obj/",
+        "outputPath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/claudio/.nuget/NuGet/NuGet.Config"

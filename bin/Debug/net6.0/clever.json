@@ -1,0 +1,8 @@
+{
+  "deploy": {
+    "type": "dotnetcore",
+    "framework": "dotnet6.0",
+    "command": "dotnet publish -c Release --self-contained -r linux-x64 /p:PublishReadyToRun=true",
+    "web": "dotnet ticket-support-api.dll"
+  }
+}

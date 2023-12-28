@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zTF+fNJ2e8jhNfwN/cmOaqCEC0g79hnYRSp60+hwLKRO842ipb+QlpJMu3sEiiRFxNNiTZYWJenDe9VQT1QmeA==",
+  "dgSpecHash": "C308mANJka5hn2f+kc/dXw7NAFMMs11RiQCuVpcjGKq5ZYAjwKC+/7ZRdQspVXUsbuCosi7LpyMNvUQjwSOTBw==",
   "success": true,
-  "projectFilePath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/ticket-support-api-v2.csproj",
+  "projectFilePath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/ticket-support-api-v2.csproj",
   "expectedPackageFiles": [
     "/home/claudio/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/home/claudio/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
