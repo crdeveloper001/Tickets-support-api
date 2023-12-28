@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/ticket-support-api-v2.csproj": {}
+  },
+  "projects": {
+    "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/ticket-support-api-v2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/ticket-support-api-v2.csproj",
+        "projectName": "ticket-support-api-v2",
+        "projectPath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/ticket-support-api-v2.csproj",
+        "packagesPath": "/home/claudio/.nuget/packages/",
+        "outputPath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/ticket-support-api-v2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/claudio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.2-dev-02097, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.125/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
