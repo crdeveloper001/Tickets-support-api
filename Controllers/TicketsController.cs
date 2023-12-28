@@ -105,7 +105,7 @@ namespace ticket_support_api.Controllers
             }
             else
             {
-                await TicketsService.UpdateTicket(updatedTicket._id, updatedTicket);
+                await TicketsService.UpdateTicket(updatedTicket._id!, updatedTicket);
 
                 return Ok("EL CAMBIO FUE EXITOSO EN EL TICKET: "+updatedTicket.TicketNumber);
             }

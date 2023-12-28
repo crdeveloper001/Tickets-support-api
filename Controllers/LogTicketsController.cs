@@ -19,7 +19,7 @@ namespace ticket_support_api.Controllers
         {
             if (record != null)
             {
-                await ticketsService.DeleteTicket(record._id);
+                await ticketsService.DeleteTicket(record._id!);
 
                 record._id = "";
 

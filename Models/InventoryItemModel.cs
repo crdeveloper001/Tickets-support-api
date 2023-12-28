@@ -6,7 +6,7 @@ namespace ticket_support_api.Models
     {
         [BsonElement]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
-        public string _id { get; set; }
+        public string? _id { get; set; }
         [BsonElement]
         public string? Code { get; set; }
         [BsonElement]

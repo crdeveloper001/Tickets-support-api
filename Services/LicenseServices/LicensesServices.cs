@@ -32,7 +32,7 @@ namespace ticket_support_api.Services.LicenseServices
         {
             return await CollectionLicenses.FindAsync(new BsonDocument()).Result.ToListAsync();
         }
-        public async Task UpdateLicenses(string id, LicensesModel updateLicense)
+        public async Task UpdateLicenses(string? id, LicensesModel updateLicense)
         {
             var FiltroConsulta = Builders<LicensesModel>.Filter.Eq(X => X._id, updateLicense._id);
 

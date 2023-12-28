@@ -45,7 +45,7 @@ namespace ticket_support_api.Controllers
                 };
                 await systemRegister.ApproveUser(UserData,SystemEmail,SystemPass);
 
-                await systemRegister.RejectUser(user._id);
+                await systemRegister.RejectUser(user._id!);
 
                 return Ok("Se ha registrado el cliente: " + UserData.Name + "como usuario del sistema");
             }

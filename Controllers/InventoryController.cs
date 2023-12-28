@@ -90,7 +90,7 @@ namespace ticket_support_api.Controllers
             }
             else
             {
-                await inventoryServices.DeleteItemFromInventory(item._id, item.Category);
+                await inventoryServices.DeleteItemFromInventory(item._id!, item.Category);
 
                 return Ok("Se ha eliminado el item: " + item._id + " de la base de datos de inventario de: "+ item.Category);
             }
