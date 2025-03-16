@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pNDIUpzb6NBaSOVkiZkTyndb2SMQ9ukJLrDHFC9GNtc=",
+  "Source": "ticket-support-api-v2",
+  "BasePath": "_content/ticket-support-api-v2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

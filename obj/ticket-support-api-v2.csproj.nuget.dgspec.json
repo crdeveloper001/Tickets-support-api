@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/ticket-support-api-v2.csproj": {}
+    "C:\\Users\\claud\\Desktop\\FULLSTACK PROYECTS\\APP Tickets Support\\Tickets-support-api\\ticket-support-api-v2.csproj": {}
   },
   "projects": {
-    "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/ticket-support-api-v2.csproj": {
+    "C:\\Users\\claud\\Desktop\\FULLSTACK PROYECTS\\APP Tickets Support\\Tickets-support-api\\ticket-support-api-v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/ticket-support-api-v2.csproj",
+        "projectUniqueName": "C:\\Users\\claud\\Desktop\\FULLSTACK PROYECTS\\APP Tickets Support\\Tickets-support-api\\ticket-support-api-v2.csproj",
         "projectName": "ticket-support-api-v2",
-        "projectPath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/ticket-support-api-v2.csproj",
-        "packagesPath": "/home/claudio/.nuget/packages/",
-        "outputPath": "/home/claudio/Desktop/PROYECTOS PERSONALES FULLSTACK/Tickets App/Tickets-support-api/obj/",
+        "projectPath": "C:\\Users\\claud\\Desktop\\FULLSTACK PROYECTS\\APP Tickets Support\\Tickets-support-api\\ticket-support-api-v2.csproj",
+        "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\claud\\Desktop\\FULLSTACK PROYECTS\\APP Tickets Support\\Tickets-support-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/claudio/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\claud\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -32,31 +32,36 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.23.1, )"
+              "version": "[3.2.1, )"
             },
             "Serilog": {
               "target": "Package",
-              "version": "[3.1.2-dev-02097, )"
+              "version": "[4.2.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[7.3.1, )"
             }
           },
           "imports": [
@@ -65,7 +70,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -77,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.125/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
